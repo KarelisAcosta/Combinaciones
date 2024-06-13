@@ -37,6 +37,7 @@ body {
   min-height: 100dvh;
   display: grid;
   grid-template-rows: max-content 1fr max-content;
+  margin: 0px;
 }
 
 .buttons {
