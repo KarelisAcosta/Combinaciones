@@ -25,7 +25,7 @@ function cambiodeco() {
   if (current_deco == 4) {
     current_deco = 1;
   }
-  img_deco.src = `./Img/deco${current_deco}.png`;
+  img_deco.src = `./Img/Deco${current_deco}.png`;
 }
 
 let btn_velas = document.getElementById("btn_velas");
@@ -40,5 +40,5 @@ function cambiovelas() {
   if (current_velas == 5) {
     current_velas = 1;
   }
-  img_velas.src = `./Img/velas${current_velas}.png`;
+  img_velas.src = `./Img/Velas${current_velas}.png`;
 }
